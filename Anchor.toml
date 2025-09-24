@@ -1,0 +1,22 @@
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+dlmm_fee_router = "FeeRouter11111111111111111111111111111111111"
+
+[programs.devnet]
+dlmm_fee_router = "FeeRouter11111111111111111111111111111111111"
+
+[programs.mainnet]
+dlmm_fee_router = "FeeRouter11111111111111111111111111111111111"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
