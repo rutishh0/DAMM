@@ -369,15 +369,4 @@ anchor test -- --reporter spec
 
 MIT License - See LICENSE file for details
 
-## Support
 
-For questions or issues:
-- Telegram: [@algopapi](https://t.me/algopapi)
-- GitHub Issues: [Create an issue](https://github.com/your-org/dlmm-fee-router/issues)
-
-## Acknowledgments
-
-- Star Technologies for sponsoring development
-- Meteora Protocol for DLMM V2
-- Streamflow for vesting infrastructure
-- Solana Foundation for blockchain infrastructure
